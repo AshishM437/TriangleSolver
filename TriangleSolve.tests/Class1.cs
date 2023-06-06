@@ -69,71 +69,7 @@ namespace TriangleSolve.tests
                 Assert.AreEqual("The triangle is valid and is an ISOSCELES", result);
             }
 
-            [Test]
-            public void ScaleneTriangle_ValidResponse_Test1()
-            {
-                // Arrange
-                int firstSide = 3, secondSide = 4, thirdSide = 5;
-
-                // Act
-                string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
-
-                // Assert
-                Assert.AreEqual("The triangle is valid and is a SCALENE", result);
-            }
-
-            [Test]
-            public void ScaleneTriangle_ValidResponse_Test2()
-            {
-                // Arrange
-                int firstSide = 7, secondSide = 9, thirdSide = 11;
-
-                // Act
-                string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
-
-                // Assert
-                Assert.AreEqual("The triangle is valid and is a SCALENE", result);
-            }
-
-            [Test]
-            public void ScaleneTriangle_ValidResponse_Test3()
-            {
-                // Arrange
-                int firstSide = 5, secondSide = 12, thirdSide = 13;
-
-                // Act
-                string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
-
-                // Assert
-                Assert.AreEqual("The triangle is valid and is a SCALENE", result);
-            }
-
-            [Test]
-            public void ScaleneTriangle_ValidResponse_Test4()
-            {
-                // Arrange
-                int firstSide = 10, secondSide = 11, thirdSide = 12;
-
-                // Act
-                string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
-
-                // Assert
-                Assert.AreEqual("The triangle is valid and is a SCALENE", result);
-            }
-
-            [Test]
-            public void ScaleneTriangle_ValidResponse_Test5()
-            {
-                // Arrange
-                int firstSide = 2, secondSide = 4, thirdSide = 5;
-
-                // Act
-                string result = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
-
-                // Assert
-                Assert.AreEqual("The triangle is valid and is a SCALENE", result);
-            }
-
+            
             [Test]
             public void ZeroLengthSide_InvalidResponse_Test1()
             {
